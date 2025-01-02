@@ -13,6 +13,7 @@ public class ObjLookAtTarget : MyMonoBehaviour
 
     protected virtual void Looking()
     {
+        if (this.targetPosition == null) return;
         Vector3 dir = this.targetPosition - transform.parent.position;
         dir.Normalize();
         float timeSpeed = this.rotSpeed * Time.fixedDeltaTime;

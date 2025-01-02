@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,8 +5,8 @@ public abstract class Spawner : MyMonoBehaviour
 {
     [SerializeField] protected Transform holder;
 
-    [SerializeField] protected int spawnCount = 0;
-    public int SpawnCount => spawnCount;
+    [SerializeField] protected int spawnedCount = 0;
+    public int SpawnedCount => spawnedCount;
 
     [SerializeField] protected List<Transform> prefabs;
     [SerializeField] protected List<Transform> poolObjs;
@@ -53,13 +52,13 @@ public abstract class Spawner : MyMonoBehaviour
     }
 
 
-    protected virtual Transform Spawn(Transform prefab, Vector3 pos, Quaternion rot)
+    public virtual Transform Spawn(Transform prefab, Vector3 pos, Quaternion rot)
     {
         Transform newPrefabs = this.GetObjFromPoll(prefab);
         newPrefabs.SetPositionAndRotation(pos, rot);
         newPrefabs.SetParent(holder);
 
-        spawnCount++;
+        spawnedCount++;
         return newPrefabs;
     }
 
@@ -79,5 +78,11 @@ public abstract class Spawner : MyMonoBehaviour
         Transform newPrefab = Instantiate(prefab);
         newPrefab.name = prefab.name;
         return newPrefab;
+    }
+
+    public virtual Transform RandomPrefab()
+    {
+        int rand = Random.Range(0, this.prefabs.Count);
+        return this.prefabs[rand];
     }
 }

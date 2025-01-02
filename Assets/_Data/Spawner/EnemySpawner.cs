@@ -3,7 +3,7 @@ using UnityEngine;
 public class EnemySpawner : Spawner
 {
     private static EnemySpawner instance;
-    public static EnemySpawner Instance { get => instance; }
+    public static EnemySpawner Instance => instance;
 
 
     protected override void Awake()
@@ -15,7 +15,7 @@ public class EnemySpawner : Spawner
 
     protected override void Start()
     {
-        this.Test();
+        //InvokeRepeating(nameof(this.Test),1,1);
     }
 
     protected virtual void Test()
