@@ -12,7 +12,7 @@ public class MyMonoBehaviour : MonoBehaviour
     {
         // override
     }
-
+    
     protected virtual void ResetValue()
     {
         // ovirride
