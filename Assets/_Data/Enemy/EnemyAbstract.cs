@@ -1,16 +1,20 @@
 using UnityEngine;
 
-public class EnemyAbstract : MonoBehaviour
+public class EnemyAbstract : MyMonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    [Header("Enemy Abtract")]
+    [SerializeField] protected EnemyCtrl enemyCtrl;
+    public EnemyCtrl BulletCtrl { get => enemyCtrl; }
 
-    // Update is called once per frame
-    void Update()
+    protected override void LoadComponents()
     {
-        
+        base.LoadComponents();
+        this.LoadEnemyCtrl();
+    }
+    protected virtual void LoadEnemyCtrl()
+    {
+        if (this.enemyCtrl != null) return;
+        this.enemyCtrl = transform.parent.GetComponent<EnemyCtrl>();
+        Debug.LogWarning(transform.name + ": LoadEnemyCtrl", gameObject);
     }
 }

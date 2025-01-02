@@ -61,7 +61,14 @@ public abstract class Spawner : MyMonoBehaviour
         spawnedCount++;
         return newPrefabs;
     }
+    public virtual void Despawn(Transform obj)
+    {
+        if (this.poolObjs.Contains(obj)) return;
 
+        this.poolObjs.Add(obj);
+        obj.gameObject.SetActive(false);
+        this.spawnedCount--;
+    }
     protected virtual Transform GetObjFromPoll(Transform prefab)
     {
         foreach (var poolObj  in this.poolObjs)
@@ -79,10 +86,28 @@ public abstract class Spawner : MyMonoBehaviour
         newPrefab.name = prefab.name;
         return newPrefab;
     }
+    public virtual Transform GetPrefabByName(string prefabName)
+    {
+        foreach (Transform prefab in this.prefabs)
+        {
+            if (prefab.name == prefabName) return prefab;
+        }
 
+        return null;
+    }
+
+    public virtual Transform FirstPrefab()
+    { 
+        if (this.prefabs.Count == 0) return null;   
+        return this.prefabs[0];
+    }
     public virtual Transform RandomPrefab()
     {
         int rand = Random.Range(0, this.prefabs.Count);
         return this.prefabs[rand];
+    }
+    public virtual void Hold(Transform obj)
+    {
+        obj.parent = this.holder;
     }
 }

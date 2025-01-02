@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class EnemyCtrl : EnemyAbstract
+public class EnemyCtrl : MyMonoBehaviour
 {
    
 }

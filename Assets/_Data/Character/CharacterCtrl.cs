@@ -2,21 +2,14 @@ using UnityEngine;
 
 public class CharacterCtrl : MyMonoBehaviour
 {
-    [SerializeField] protected CharacterCtrl instance;
-    public CharacterCtrl Instance => instance;
+    [SerializeField] protected static CharacterCtrl _instance;
+    public static CharacterCtrl Instance => _instance;
 
-    protected override void LoadComponents()
+    protected override void Awake()
     {
-        base.LoadComponents();
-        this.LoadCharacterCtrl();
+        base.Awake();
+        if (CharacterCtrl._instance != null) Debug.LogError("Only 1 GameCtrl allow to exist");
+        CharacterCtrl._instance = this;
     }
-
-    protected virtual void LoadCharacterCtrl()
-    {
-        if (this.instance != null) return;
-        this.instance = GetComponent<CharacterCtrl>();
-        Debug.LogWarning(transform.name + ": LoadCharacterCtrl", gameObject);
-    }
-
 
 }
