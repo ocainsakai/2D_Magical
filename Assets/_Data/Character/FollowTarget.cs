@@ -20,7 +20,7 @@ public abstract class FollowTarget : MyMonoBehaviour
 
     protected virtual void Following()
     {
-        if (this.target != null) return;
-        this.transform.parent.position = Vector3.Lerp(this.transform.position, target.position, Time.fixedDeltaTime * speed);
+        if (this.target == null) return;
+        this.transform.position = Vector2.Lerp(this.transform.position, target.position, Time.fixedDeltaTime * speed);
     }
 }
