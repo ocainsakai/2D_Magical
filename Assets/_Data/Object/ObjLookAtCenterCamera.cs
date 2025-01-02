@@ -16,10 +16,7 @@ public class ObjLookAtCenterCamera : ObjLookAtTarget
         this.targetPosition = GameCtrl.Instance.MainCamera.transform.position;
         Vector3 objPos = transform.parent.position;
         this.targetPosition.x += Random.Range(this.minCamPos, this.maxCamPos);
-
-        Debug.Log((this.minCamPos, this.maxCamPos));
         this.targetPosition.y += Random.Range(this.minCamPos, this.maxCamPos);
-        Debug.Log(Random.Range(this.minCamPos, this.maxCamPos));
 
         
         Vector3 diff = this.targetPosition - objPos;

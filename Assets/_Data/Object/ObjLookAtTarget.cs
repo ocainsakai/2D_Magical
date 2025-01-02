@@ -29,4 +29,13 @@ public class ObjLookAtTarget : MyMonoBehaviour
         this.rotSpeed = speed;
     }
 
+    public virtual void Active()
+    {
+        this.gameObject.SetActive(true);
+    }
+    public virtual void Hide()
+    {
+        this .gameObject.SetActive(false);
+    }
+
 }
