@@ -1,11 +1,21 @@
 ﻿using UnityEngine;
 
-public class ObjLookAtTarget : MyMonoBehaviour
+public abstract class ObjLookAtTarget : MyMonoBehaviour
 {
     [Header("Look At Target")]
     [SerializeField] protected Vector3 targetPosition;
     [SerializeField] protected float rotSpeed = 3f;
 
+    protected override void LoadComponents()
+    {
+        base.LoadComponents();
+        this.LoadTarget();
+    }
+
+    protected virtual void LoadTarget()
+    {
+       // to do override
+    }
     protected virtual void FixedUpdate()
     {
         this.Looking();
@@ -28,7 +38,10 @@ public class ObjLookAtTarget : MyMonoBehaviour
     {
         this.rotSpeed = speed;
     }
-
+    //public void SetTarget(Vector3 targetPosition)
+    //{
+    //    this.targetPosition = targetPosition;
+    //}
     public virtual void Active()
     {
         this.gameObject.SetActive(true);

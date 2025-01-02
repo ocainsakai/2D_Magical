@@ -4,7 +4,7 @@ public class EnemyAbstract : MyMonoBehaviour
 {
     [Header("Enemy Abtract")]
     [SerializeField] protected EnemyCtrl enemyCtrl;
-    public EnemyCtrl BulletCtrl { get => enemyCtrl; }
+    public EnemyCtrl BulletCtrl  => enemyCtrl; 
 
     protected override void LoadComponents()
     {

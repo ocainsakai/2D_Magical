@@ -4,7 +4,7 @@ using UnityEngine;
 public abstract class DamageReceiver : MyMonoBehaviour
 {
     [Header("Damage Receiver")]
-    [SerializeField] protected SphereCollider sphereCollider;
+    [SerializeField] protected SphereCollider _sphereCollider;
     [SerializeField] protected double hp = 1;
     [SerializeField] protected double hpMax = 2;
     [SerializeField] protected bool isDead = false;
@@ -12,6 +12,20 @@ public abstract class DamageReceiver : MyMonoBehaviour
     public double HP => hp;
     public double HPMax => hpMax;
 
+
+    protected override void LoadComponents()
+    {
+        base.LoadComponents();
+        this.LoadSphereCollider();
+    }
+    protected virtual void LoadSphereCollider()
+    {
+        if (_sphereCollider != null) return;
+        this._sphereCollider = GetComponent<SphereCollider>();
+        this._sphereCollider.isTrigger = false;
+        this._sphereCollider.radius = 0.5f;
+        Debug.Log(transform.name + ": LoadCollider", gameObject);
+    }
     protected override void OnEnable()
     {
         this.Reborn();

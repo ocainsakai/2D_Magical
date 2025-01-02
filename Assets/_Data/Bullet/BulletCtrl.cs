@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class BulletCtrl : MyMonoBehaviour
 {
-    [SerializeField] protected DamegeSender _damageSender;
-    public DamegeSender DamageSender => _damageSender;
+    [SerializeField] protected BulletDameSender _damageSender;
+    public BulletDameSender DamageSender => _damageSender;
     [SerializeField] protected BulletDespawn _bulletDespawn;
     public BulletDespawn BulletDespawn => _bulletDespawn;
     [SerializeField] protected Transform shooter;
@@ -20,7 +20,7 @@ public class BulletCtrl : MyMonoBehaviour
     protected virtual void LoadDamageSender()
     {
         if (_damageSender != null) return;
-        this._damageSender = transform.GetComponentInChildren<DamegeSender>();
+        this._damageSender = transform.GetComponentInChildren<BulletDameSender>();
         Debug.Log(transform.name + ": LoadDamageSender", gameObject);
 
     }

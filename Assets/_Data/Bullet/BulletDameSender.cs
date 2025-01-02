@@ -1,10 +1,9 @@
 using UnityEngine;
 
-public class BulletAbstract : MyMonoBehaviour
+public class BulletDameSender : DamageSender
 {
-    [Header("Bullet Abtract")]
     [SerializeField] protected BulletCtrl bulletCtrl;
-    public BulletCtrl BulletCtrl => bulletCtrl; 
+    public BulletCtrl BulletCtrl { get => bulletCtrl; }
 
     protected override void LoadComponents()
     {
@@ -17,5 +16,19 @@ public class BulletAbstract : MyMonoBehaviour
         if (this.bulletCtrl != null) return;
         this.bulletCtrl = transform.parent.GetComponent<BulletCtrl>();
         Debug.Log(transform.name + ": LoadBulletCtrl", gameObject);
+    }
+
+    // find another way to creat link to ctrl
+
+    public override void Send(DamageReceiver damageReceiver)
+    {
+
+        base.Send(damageReceiver);
+        this.DestroyBullet();
+    }
+
+    protected virtual void DestroyBullet()
+    {
+        this.bulletCtrl.BulletDespawn.DespawnObject();
     }
 }

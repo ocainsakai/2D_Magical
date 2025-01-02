@@ -15,6 +15,7 @@ public class BulletSpawner : Spawner
         if (BulletSpawner._instance != null) Debug.LogError("Only 1 BulletSpawner allow to exist");
         BulletSpawner._instance = this;
     }
+
     //protected override void LoadComponents()
     //{
     //    base.LoadComponents();

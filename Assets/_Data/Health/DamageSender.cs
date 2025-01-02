@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class DamegeSender : MyMonoBehaviour
+public class DamageSender : MyMonoBehaviour
 {
     [SerializeField] protected double damage = 1;
 

@@ -19,7 +19,7 @@ public class BulletImpact : BulletAbstract
         if (_sphereCollider != null) return;
         this._sphereCollider = GetComponent<SphereCollider>();
         this._sphereCollider.isTrigger = true;
-        this._sphereCollider.radius = 0.5f;
+        this._sphereCollider.radius = 0.25f;
         Debug.Log(transform.name + ": LoadCollider", gameObject);
     }
 
@@ -33,10 +33,9 @@ public class BulletImpact : BulletAbstract
     }
     protected virtual void OnTriggerEnter(Collider other)
     {
-        //if (other.transform.parent == this.bulletCtrl.Shooter) return;
-
-        //this.bulletCtrl.DamageSender.Send(other.transform);
-        ////this.CreateImpactFX(other);
+        if (other.transform.parent == this.bulletCtrl.Shooter) return;
+        this.bulletCtrl.DamageSender.Send(other.transform);
+        //this.CreateImpactFX(other);
     }
 
 }

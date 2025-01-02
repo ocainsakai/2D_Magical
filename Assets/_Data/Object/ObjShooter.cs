@@ -21,7 +21,7 @@ public abstract class ObjShooter : MyMonoBehaviour
     protected virtual void Shooting()
     {
         shootTimer += Time.fixedDeltaTime;
-        Debug.Log("is shot");
+        //Debug.Log("is shot");
 
         if (!this.isShooting) return;
 
