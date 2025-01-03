@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public abstract class ObjShooter : MyMonoBehaviour
 {
@@ -8,38 +8,39 @@ public abstract class ObjShooter : MyMonoBehaviour
     [SerializeField] protected float shootTimer = 0f;
     [SerializeField] protected float damage;
 
-    protected void Update()
+    protected virtual void Shoot(Vector3 mousePos)
     {
-        this.IsShooting();
+        if (isShooting) return;
+        StartCoroutine(Shooting(mousePos));
     }
 
-    protected virtual void FixedUpdate()
+    protected virtual System.Collections.IEnumerator Shooting(Vector3 mousePos)
     {
-        this.Shooting();
-    }
+        isShooting = true;
 
-    protected virtual void Shooting()
-    {
-        shootTimer += Time.fixedDeltaTime;
-        //Debug.Log("is shot");
-
-        if (!this.isShooting) return;
-
-        if (shootTimer < shootDelay) return;
-
-        this.shootTimer = 0;
         Vector3 spawnPos = transform.position;
-        Quaternion rotation = transform.parent.rotation;
-        
+
+        Vector3 dir = mousePos - transform.parent.position;
+        float rot_z = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+
+        Quaternion rot = Quaternion.Euler(0f, 0f, rot_z);
 
         // to do choice bullet prefab
-        Transform newBullet = BulletSpawner.Instance.Spawn(BulletSpawner.Instance.FirstPrefab(), spawnPos, rotation);
-        if (newBullet == null) return;
+        Transform newBullet = BulletSpawner.Instance.Spawn(BulletSpawner.Instance.FirstPrefab(), spawnPos, rot);
+        
         newBullet.gameObject.SetActive(true);
+        
+        
+
+
         BulletCtrl bulletCtrl = newBullet.GetComponent<BulletCtrl>();
         bulletCtrl.DamageSender.SetDamage(this.damage);
         bulletCtrl.SetShooter(transform.parent);
+
+        yield return new WaitForSeconds(shootDelay);
+        isShooting = false;
     }
+    
     public virtual void SetDame(float dame)
     {
         this.damage = dame;
@@ -48,5 +49,4 @@ public abstract class ObjShooter : MyMonoBehaviour
     {
         this.shootDelay = delay;
     }
-    protected abstract bool IsShooting();
 }

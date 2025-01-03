@@ -35,7 +35,17 @@ public class BulletImpact : BulletAbstract
     {
         if (other.transform.parent == this.bulletCtrl.Shooter) return;
         this.bulletCtrl.DamageSender.Send(other.transform);
-        //this.CreateImpactFX(other);
+        this.CreateImpactFX(other);
     }
+    protected virtual void CreateImpactFX(Collider orther)
+    {
+        Vector3 spawnPos = transform.position;
+        Quaternion rot = transform.parent.rotation;
 
+        // to do choice bullet prefab
+        Transform newFX = FXSpawner.Instance.Spawn(FXSpawner.Instance.FirstPrefab(), spawnPos, rot);
+        newFX.gameObject.SetActive(true);
+
+        newFX.GetComponentInChildren<FXDespawn>().ActiveDespawn();
+    }
 }

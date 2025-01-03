@@ -1,11 +1,15 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class CharacterShooter : ObjShooter
 {
-    protected override bool IsShooting()
+    protected override void Start()
     {
-        //this.isShooting = InputManager.Instance.OnFiring == 1;
-        //return isShooting;
-        return false;
+        InputManager.OnFire += Shoot; // Đăng ký sự kiện
     }
+
+    protected virtual void OnDestroy()
+    {
+        InputManager.OnFire -= Shoot; // Hủy đăng ký sự kiện
+    }
+
 }

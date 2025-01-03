@@ -7,10 +7,8 @@ public class InputManager : MonoBehaviour
     private static InputManager _instance;
     public static InputManager Instance   => _instance; 
 
-    [SerializeField] protected Vector3 _mouseWorldPos;
-    public Vector3 MouseWorldPos  => _mouseWorldPos;
-
     public static System.Action<Vector3> OnRightClick;
+    public static System.Action<Vector3> OnFire;
     private void Awake()
     {
         if (InputManager._instance != null) Debug.LogError("Only 1 InputManager allow to exist");
@@ -22,25 +20,14 @@ public class InputManager : MonoBehaviour
         if (Input.GetMouseButtonDown(1))
         {
             GetMousePos();
-            OnRightClick?.Invoke(this.MouseWorldPos);
-            Debug.Log(transform.name + " Get mouse down");
+            OnRightClick?.Invoke(GetMousePos());
         }
-
+        if (Input.GetAxisRaw("Fire1") == 1)
+        {
+            OnFire?.Invoke(GetMousePos());
+        }
     }
-    //public static void DebugHandlers()
-    //{
-    //    if (OnRightClick != null)
-    //    {
-    //        foreach (var handler in OnRightClick.GetInvocationList())
-    //        {
-    //            Debug.Log($"Handler đã đăng ký: {handler.Method.Name} thuộc class {handler.Target}");
-    //        }
-    //    }
-    //    else
-    //    {
-    //        Debug.Log("Không có handler nào được đăng ký với OnRightClick.");
-    //    }
-    //}
+   
     void Update()
     {
         this.GetMouseDown();
@@ -48,8 +35,8 @@ public class InputManager : MonoBehaviour
         //this.GetDirectionByKeyDsown();
     }
 
-    protected virtual void GetMousePos()
+    protected virtual Vector3 GetMousePos()
     {
-        this._mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        return Camera.main.ScreenToWorldPoint(Input.mousePosition);
     }
 }

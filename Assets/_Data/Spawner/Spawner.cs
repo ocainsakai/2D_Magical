@@ -71,7 +71,7 @@ public abstract class Spawner : MyMonoBehaviour
     }
     protected virtual Transform GetObjFromPoll(Transform prefab)
     {
-        foreach (var poolObj  in this.poolObjs)
+        foreach (Transform poolObj  in this.poolObjs)
         {
             if (poolObj == null) continue;
 

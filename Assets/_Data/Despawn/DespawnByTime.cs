@@ -1,20 +1,19 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
-public class DespawnByTime : Despawn
+public abstract class DespawnByTime : MyMonoBehaviour
 {
 
     [SerializeField] protected float timeDestroy = 70f;
-    [SerializeField] protected float timer = 0f;
-    [SerializeField] protected Transform mainCam => GameCtrl.Instance.MainCamera.transform;
 
-    protected override void FixedUpdate()
+    protected virtual System.Collections.IEnumerator Despawning(float timeDestroy)
     {
-        base.FixedUpdate();
+        yield return timeDestroy;
+        OnDespawn();
     }
-    protected override bool CanDespawn()
+    public virtual void ActiveDespawn()
     {
-        timer += Time.fixedDeltaTime;
-        if (this.timer > this.timeDestroy) return true;
-        return false;
+        StartCoroutine(Despawning(timeDestroy));
     }
+    protected abstract void OnDespawn();
 }
