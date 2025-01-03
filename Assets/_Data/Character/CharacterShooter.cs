@@ -4,7 +4,8 @@ public class CharacterShooter : ObjShooter
 {
     protected override bool IsShooting()
     {
-        this.isShooting = InputManager.Instance.OnFiring == 1;
-        return isShooting;
+        //this.isShooting = InputManager.Instance.OnFiring == 1;
+        //return isShooting;
+        return false;
     }
 }

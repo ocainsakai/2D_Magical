@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class FollowCharacter : FollowTarget
+public class FollowCharacter : FollowTransformTarget
 {
     protected override void LoadComponents()
     {

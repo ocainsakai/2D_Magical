@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public abstract class FollowTarget : MyMonoBehaviour
+public abstract class FollowTransformTarget : MyMonoBehaviour
 {
     [SerializeField] protected Transform target;
     [SerializeField ] protected float speed = 2f;
@@ -10,7 +10,6 @@ public abstract class FollowTarget : MyMonoBehaviour
     {
         this.target = target;
     
-
     }
    
     protected virtual void FixedUpdate()
