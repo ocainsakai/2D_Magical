@@ -25,6 +25,6 @@ public class GameCtrl : MyMonoBehaviour
         if (this.mainCamera != null) return;
         this.mainCamera = GameCtrl.FindFirstObjectByType<Camera>();
         Debug.Log(transform.name + ": LoadCamera", gameObject);
-        Debug.Log(transform.name + ": LoadCamera" + MainCamera.transform.position);
+
     }
 }

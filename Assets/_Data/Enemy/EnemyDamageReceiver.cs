@@ -19,6 +19,11 @@ public class EnemyDamageReceiver : DamageReceiver
     }
     protected override void OnDead()
     {
-
+        if (this.enemyCtrl.Spawner == null)
+        {
+            this.transform.parent.gameObject.SetActive(false);
+            
+        } else
+        this.enemyCtrl.Spawner.Despawn(this.transform.parent);
     }
 }

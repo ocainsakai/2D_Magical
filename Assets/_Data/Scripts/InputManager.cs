@@ -1,18 +1,16 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class InputManager : MonoBehaviour
 {
     private static InputManager _instance;
-    public static InputManager Instance { get => _instance; }
+    public static InputManager Instance   => _instance; 
 
     [SerializeField] protected Vector3 _mouseWorldPos;
     public Vector3 MouseWorldPos  => _mouseWorldPos;
 
-    [SerializeField ] protected float _onFiring;
-
-    public float OnFiring => _onFiring;
+    public static System.Action<Vector3> OnRightClick;
     private void Awake()
     {
         if (InputManager._instance != null) Debug.LogError("Only 1 InputManager allow to exist");
@@ -21,17 +19,33 @@ public class InputManager : MonoBehaviour
 
     protected virtual void GetMouseDown()
     {
-        this._onFiring = Input.GetAxis("Fire1");
-        //Debug.Log(transform.name+ ": GetMouseDown " +_onFiring);
+        if (Input.GetMouseButtonDown(1))
+        {
+            GetMousePos();
+            OnRightClick?.Invoke(this.MouseWorldPos);
+            Debug.Log(transform.name + " Get mouse down");
+        }
+
     }
+    //public static void DebugHandlers()
+    //{
+    //    if (OnRightClick != null)
+    //    {
+    //        foreach (var handler in OnRightClick.GetInvocationList())
+    //        {
+    //            Debug.Log($"Handler đã đăng ký: {handler.Method.Name} thuộc class {handler.Target}");
+    //        }
+    //    }
+    //    else
+    //    {
+    //        Debug.Log("Không có handler nào được đăng ký với OnRightClick.");
+    //    }
+    //}
     void Update()
     {
         this.GetMouseDown();
+
         //this.GetDirectionByKeyDsown();
-    }
-    void FixedUpdate()
-    {
-        this.GetMousePos();
     }
 
     protected virtual void GetMousePos()

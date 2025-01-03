@@ -1,0 +1,1247 @@
+fileFormatVersion: 2
+guid: da7b4108364ba26459f6ccd24acf5d81
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 641750349281552667
+    second: "DALL\xB7E-2025-01-03-11.33_0"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_0"
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 786
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8367c271514d694db0b4471c7879498
+      internalID: 313613335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_1"
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 786
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb0293e4761b584eab59852f94dde4c
+      internalID: -971140031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_2"
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 786
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d2427cdcd274945a7489e432d9dae2
+      internalID: -1785694245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_3"
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 786
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e82da187a23a149bfb24db3c746181
+      internalID: -1217897376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_4"
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 786
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438582640d68421438f3fd22592a7f46
+      internalID: -2051760338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_5"
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 786
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f876e19f7a0314b45a23a8912c9cb1e7
+      internalID: 1791403711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_6"
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 786
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a562104f2d82b54ba4eab3c1e189113
+      internalID: -1036165182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_7"
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 655
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7997a73af9e6755479915d3b4169be2f
+      internalID: -601384829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_8"
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 655
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f207bc6fb66399145b2abd3d46ef4575
+      internalID: 1401523293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_9"
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 655
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc11a31aa5d90d840bcd0ced6890d25e
+      internalID: 253993771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_10"
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 655
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7747334ac57f4949b5e6676b45e178d
+      internalID: -1959518784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_11"
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 655
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ab790602b68b0469ecc7c1889f9f51
+      internalID: -1420655539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_12"
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 655
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4fbec3894b5c547b094f1a0e644397
+      internalID: 1650339074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_13"
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 655
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff1d22fd0a3bc6449f82d530366620e
+      internalID: 546753049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_14"
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 524
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a301bef7c1e7c54095099778962e071
+      internalID: 1911199927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_15"
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 524
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce465bd413068c4e9d202f771f31e64
+      internalID: 1516297262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_16"
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 524
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc594701f4ba08445818f2f216b5f8b3
+      internalID: -558995442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_17"
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 524
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2576e1446ec200342afa3f5cff022136
+      internalID: 1189435929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_18"
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 524
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d19eb7445a3544d905adf673035286
+      internalID: -619845915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_19"
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 524
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c12b7619bec98498368e097e22fe43
+      internalID: 1058401445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_20"
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 524
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8ce4ece7a53724f86291bf72847771
+      internalID: -1789998007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_21"
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 393
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e944da835735ba84a845ff785bbe99fa
+      internalID: 2011655436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_22"
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 393
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2e772b47513614792933f9a0e2246a
+      internalID: -1950441827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_23"
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 393
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069dc4c1dafc87f46b878b9b5a566daf
+      internalID: 1660831606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_24"
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 393
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8639cb2b772566f4092ce18013477d0b
+      internalID: -1726163082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_25"
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 393
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1a379b954094f42ba84861adaecd77
+      internalID: -296178418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_26"
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 393
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5074ede03ae097409e082b330e4d96c
+      internalID: -1854544619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_27"
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 393
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57cd41f10f0290143a3031b8b4275096
+      internalID: -872195683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_28"
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 262
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f455825d2ab9764a815d37f4299a6d3
+      internalID: 37471347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_29"
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 262
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b51fd76c1fa6a146939275e8a12913f
+      internalID: -927211822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_30"
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 262
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035b309aa705797469ad926d7584f61b
+      internalID: -1621689517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_31"
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 262
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5e37b5a998ff848b3de4094bed93c7
+      internalID: -123830709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_32"
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 262
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3d65254cb5038429f53afe11ecb3f0
+      internalID: 169400781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_33"
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 262
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5e96677979da04cb593bde0b4e8c0c
+      internalID: 1202677181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_34"
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 262
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34544a031eb99f640b3f05d28569bced
+      internalID: 2058786494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_35"
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 131
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0913abc3a6fe89d429582a0f9a01c627
+      internalID: 40080713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_36"
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 131
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18a70ca7500c7747818bc2e3c45aefd
+      internalID: 61729812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_37"
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 131
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1655f4ef3af874bbb331116ef370c6
+      internalID: 1124257611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_38"
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 131
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723c8c1bfdf5d0848a4b48c63120f438
+      internalID: 1882320607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_39"
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 131
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1a5fa29d2dcfc44bede16d384e4c1a
+      internalID: -383651501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_40"
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 131
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1267f8175f617cd4ab27543e731a12b5
+      internalID: -1514617747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_41"
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 131
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370b132d6ef9a734d9c4e6bb06d0f521
+      internalID: -596665600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_42"
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 0
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8bd575bee73ed479514fad9115a3b0
+      internalID: 950670488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_43"
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 0
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd88d95afa9c0554b92ece22ec8679a1
+      internalID: -2077031775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_44"
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 0
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8336d0358bf6b42baa447d3d852cb5
+      internalID: 203384290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_45"
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 0
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38e12c71a40be64baf5be827b46a451
+      internalID: -1651836281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_46"
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 0
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204fcceee3191d946be8b61efe3c1bdb
+      internalID: 1069733141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_47"
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f649c5aa99166478a0bd50d6eac0ac
+      internalID: 783813264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "DALL\xB7E-2025-01-03-11.33_48"
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 0
+        width: 137
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc2ebcd807da8045abb947de6ac1141
+      internalID: -549184362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d5155245367132a45a3915089892cb5c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "DALL\xB7E-2025-01-03-11.33_0": 313613335
+      "DALL\xB7E-2025-01-03-11.33_1": -971140031
+      "DALL\xB7E-2025-01-03-11.33_10": -1959518784
+      "DALL\xB7E-2025-01-03-11.33_11": -1420655539
+      "DALL\xB7E-2025-01-03-11.33_12": 1650339074
+      "DALL\xB7E-2025-01-03-11.33_13": 546753049
+      "DALL\xB7E-2025-01-03-11.33_14": 1911199927
+      "DALL\xB7E-2025-01-03-11.33_15": 1516297262
+      "DALL\xB7E-2025-01-03-11.33_16": -558995442
+      "DALL\xB7E-2025-01-03-11.33_17": 1189435929
+      "DALL\xB7E-2025-01-03-11.33_18": -619845915
+      "DALL\xB7E-2025-01-03-11.33_19": 1058401445
+      "DALL\xB7E-2025-01-03-11.33_2": -1785694245
+      "DALL\xB7E-2025-01-03-11.33_20": -1789998007
+      "DALL\xB7E-2025-01-03-11.33_21": 2011655436
+      "DALL\xB7E-2025-01-03-11.33_22": -1950441827
+      "DALL\xB7E-2025-01-03-11.33_23": 1660831606
+      "DALL\xB7E-2025-01-03-11.33_24": -1726163082
+      "DALL\xB7E-2025-01-03-11.33_25": -296178418
+      "DALL\xB7E-2025-01-03-11.33_26": -1854544619
+      "DALL\xB7E-2025-01-03-11.33_27": -872195683
+      "DALL\xB7E-2025-01-03-11.33_28": 37471347
+      "DALL\xB7E-2025-01-03-11.33_29": -927211822
+      "DALL\xB7E-2025-01-03-11.33_3": -1217897376
+      "DALL\xB7E-2025-01-03-11.33_30": -1621689517
+      "DALL\xB7E-2025-01-03-11.33_31": -123830709
+      "DALL\xB7E-2025-01-03-11.33_32": 169400781
+      "DALL\xB7E-2025-01-03-11.33_33": 1202677181
+      "DALL\xB7E-2025-01-03-11.33_34": 2058786494
+      "DALL\xB7E-2025-01-03-11.33_35": 40080713
+      "DALL\xB7E-2025-01-03-11.33_36": 61729812
+      "DALL\xB7E-2025-01-03-11.33_37": 1124257611
+      "DALL\xB7E-2025-01-03-11.33_38": 1882320607
+      "DALL\xB7E-2025-01-03-11.33_39": -383651501
+      "DALL\xB7E-2025-01-03-11.33_4": -2051760338
+      "DALL\xB7E-2025-01-03-11.33_40": -1514617747
+      "DALL\xB7E-2025-01-03-11.33_41": -596665600
+      "DALL\xB7E-2025-01-03-11.33_42": 950670488
+      "DALL\xB7E-2025-01-03-11.33_43": -2077031775
+      "DALL\xB7E-2025-01-03-11.33_44": 203384290
+      "DALL\xB7E-2025-01-03-11.33_45": -1651836281
+      "DALL\xB7E-2025-01-03-11.33_46": 1069733141
+      "DALL\xB7E-2025-01-03-11.33_47": 783813264
+      "DALL\xB7E-2025-01-03-11.33_48": -549184362
+      "DALL\xB7E-2025-01-03-11.33_5": 1791403711
+      "DALL\xB7E-2025-01-03-11.33_6": -1036165182
+      "DALL\xB7E-2025-01-03-11.33_7": -601384829
+      "DALL\xB7E-2025-01-03-11.33_8": 1401523293
+      "DALL\xB7E-2025-01-03-11.33_9": 253993771
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
