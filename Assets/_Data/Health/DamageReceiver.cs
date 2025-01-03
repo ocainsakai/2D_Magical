@@ -8,7 +8,7 @@ public abstract class DamageReceiver : MyMonoBehaviour
     [SerializeField] protected double hp = 1;
     [SerializeField] protected double hpMax = 2;
     [SerializeField] protected bool isDead = false;
-    public bool IsDead => this.HP <= 0;
+
     public double HP => hp;
     public double HPMax => hpMax;
 
@@ -39,15 +39,16 @@ public abstract class DamageReceiver : MyMonoBehaviour
 
     public virtual void Add(double add)
     {
-        if (this.IsDead) return;
+        if (this.IsDead()) return;
         this.hp += add;
         if (this.hp > this.hpMax) this.hpMax = this.hp;
 
     }
     public virtual void Deduct(double deduct)
     {
-        if (this.IsDead) return;
+        if (this.IsDead()) return;
         this.hp -= deduct;
+
         if (this.hp < 0) this.hp = 0;
         CheckIsDead();
 
@@ -55,9 +56,14 @@ public abstract class DamageReceiver : MyMonoBehaviour
 
     protected void CheckIsDead()
     {
-        if (!this.IsDead) return;
+        if (!this.IsDead()) return;
         this.isDead = true;
         this.OnDead();
+    }
+
+    protected virtual bool IsDead()
+    {
+        return this.hp <= 0; 
     }
     protected void SetMaxHP(double max)
     {

@@ -10,10 +10,14 @@ public class ObjLookAtCenterCamera : ObjLookAtTarget
         base.OnEnable();
         this.GetFlyDirection();
     }
-
+    protected override void LoadTarget()
+    {
+        base.LoadTarget();
+        this.targetPosition = GameCtrl.Instance.MainCamera.transform.position;
+    }
     protected virtual void GetFlyDirection()
     {
-        this.targetPosition = GameCtrl.Instance.MainCamera.transform.position;
+        
         Vector3 objPos = transform.parent.position;
         this.targetPosition.x += Random.Range(this.minCamPos, this.maxCamPos);
         this.targetPosition.y += Random.Range(this.minCamPos, this.maxCamPos);
