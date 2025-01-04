@@ -21,4 +21,4 @@ MonoBehaviour:
   - itemSO: {fileID: 11400000, guid: a8d8baf52ab4eb243be3f4b1c2105393, type: 2}
     dropRate: 10000
   - itemSO: {fileID: 11400000, guid: 01f5e505ed1d88f41acb7a40ce011047, type: 2}
-    dropRate: 1000
+    dropRate: 1000000
