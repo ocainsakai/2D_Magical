@@ -66,6 +66,8 @@ public abstract class Spawner : MyMonoBehaviour
     // can advance code spawn by generic 
     public virtual Transform Spawn(string prefabName, Vector3 pos, Quaternion rot)
     {
+        Debug.Log(prefabName);
+        Debug.Log("========");
         Transform newPrefabs = this.GetPrefabByName(prefabName);
         newPrefabs.SetPositionAndRotation(pos, rot);
         newPrefabs.SetParent(holder);
@@ -99,6 +101,7 @@ public abstract class Spawner : MyMonoBehaviour
     }
     public virtual Transform GetPrefabByName(string prefabName)
     {
+        Debug.Log(prefabName + "___________");
         foreach (Transform prefab in this.prefabs)
         {
             if (prefab.name == prefabName) return prefab;

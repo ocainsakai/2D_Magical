@@ -1,10 +1,10 @@
 using UnityEngine;
 
-public class EnemyDamageReceiver : DamageReceiver
+public class EnemyDamageReceiver : ShootableObjDameReceiver
 {
     [Header("Enemy Dame Receiver")]
     [SerializeField] protected EnemyCtrl enemyCtrl;
-    public EnemyCtrl BulletCtrl => enemyCtrl;
+    public EnemyCtrl EnemyCtrl => enemyCtrl;
 
     protected override void LoadComponents()
     {
@@ -25,20 +25,4 @@ public class EnemyDamageReceiver : DamageReceiver
         this.enemyCtrl.Spawner.Despawn(this.transform.parent);
     }
 
-    //can upgrade
-    protected virtual void OnDeadFX()
-    {
-        Vector3 vector = transform.position;    
-        Quaternion quaternion = Quaternion.identity;
-        Transform newFX =  FXSpawner.Instance.Spawn(FXSpawner.Instance.FirstPrefab(), vector, quaternion);
-        newFX.gameObject.SetActive(true);
-        newFX.GetComponentInChildren<FXDespawn>().ActiveDespawn();
-    }
-
-    protected virtual void OnDeadDrop()
-    {
-        Vector3 dropPos = transform.position;
-        Quaternion dropRot = transform.rotation;
-        //ItemDropSpawner.Instance.Drop(this.enemyCtrl.ShootableObject.dropList, dropPos, dropRot);
-    }
 }

@@ -16,6 +16,7 @@ public class ItemDropSpawner : Spawner
 
     public virtual List<ItemDropRate> Drop (List<ItemDropRate> dropList, Vector3 pos, Quaternion rot)
     {
+        Debug.Log(dropList);
         List<ItemDropRate > dropItems = new List<ItemDropRate>();
 
         if (dropList.Count > 0)

@@ -5,14 +5,14 @@ public enum ItemCode
 {
     NoItem = 0,
 
-    IronOre = 1,
-    GoldOre = 2,
+    Exp = 1,
+    ExpMedium = 2,
 
-    Gold = 100,
+    ExpExtra = 100,
 
     CopperSword = 1000,
 }
-
+// can be upgrade
 public class ItemCodeParser
 {
     public static ItemCode FromString(string itemName)

@@ -1,9 +1,14 @@
 using UnityEngine;
 
-public class EnemyCtrl : MyMonoBehaviour
+public class EnemyCtrl : ShootableObjCtrl
 {
     [SerializeField] protected EnemySpawner _spawner;
-    public EnemySpawner Spawner => _spawner;
+    public EnemySpawner EnemySpawner => _spawner;
+
+    protected override string GetObjectTypeString()
+    {
+        return ObjectType.Enemy.ToString();
+    }
 
     protected override void LoadComponents()
     {
