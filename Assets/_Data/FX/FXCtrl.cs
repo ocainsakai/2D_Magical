@@ -3,17 +3,18 @@ using UnityEngine;
 public class FXCtrl : MyMonoBehaviour
 {
     [SerializeField] protected ParticleSystem _particleSystem;
-    public ParticleSystem ParticleSystem => _particleSystem;
+    public ParticleSystem Particle => _particleSystem;
 
     protected override void LoadComponents()
     {
         base.LoadComponents();
-        this.LoadParticalSystem();
+        this.LoadParticleSystem();
     }
-    protected virtual void LoadParticalSystem()
+   
+    protected virtual void LoadParticleSystem()
     {
-        if (_particleSystem != null) return;
-        this._particleSystem = GetComponentInChildren<ParticleSystem>();
-        Debug.LogWarning(transform.name + ": LoadFXParticleSystem ", gameObject);
+        if (this._particleSystem != null) return;
+        this._particleSystem = transform.GetComponentInChildren<ParticleSystem>();
+        Debug.Log(transform.name + ": LoadParticleSystem", gameObject);
     }
 }

@@ -37,6 +37,9 @@ public class BulletImpact : BulletAbstract
         this.bulletCtrl.DamageSender.Send(other.transform);
         this.CreateImpactFX(other);
     }
+
+
+    // can upgrade
     protected virtual void CreateImpactFX(Collider orther)
     {
         Vector3 spawnPos = transform.position;

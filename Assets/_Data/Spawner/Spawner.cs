@@ -26,12 +26,14 @@ public abstract class Spawner : MyMonoBehaviour
         Debug.LogWarning(transform.name + ": LoadHolder " + gameObject);
     }
 
+    //can upgrade
     protected virtual void LoadPrefabs()
     {
         if (this.prefabs.Count > 0) return;
 
 
         Transform list = transform.Find("Prefabs");
+        if (list == null) return;
         prefabs = new List<Transform>();
         foreach (Transform item in list)
         {
@@ -61,10 +63,19 @@ public abstract class Spawner : MyMonoBehaviour
         spawnedCount++;
         return newPrefabs;
     }
+    // can advance code spawn by generic 
+    public virtual Transform Spawn(string prefabName, Vector3 pos, Quaternion rot)
+    {
+        Transform newPrefabs = this.GetPrefabByName(prefabName);
+        newPrefabs.SetPositionAndRotation(pos, rot);
+        newPrefabs.SetParent(holder);
+
+        spawnedCount++;
+        return newPrefabs;
+    }
     public virtual void Despawn(Transform obj)
     {
         if (this.poolObjs.Contains(obj)) return;
-
         this.poolObjs.Add(obj);
         obj.gameObject.SetActive(false);
         this.spawnedCount--;

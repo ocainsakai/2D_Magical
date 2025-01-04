@@ -10,6 +10,7 @@ public class EnemyDamageReceiver : DamageReceiver
     {
         base.LoadComponents();
         this.LoadEnemyCtrl();
+
     }
     protected virtual void LoadEnemyCtrl()
     {
@@ -19,11 +20,25 @@ public class EnemyDamageReceiver : DamageReceiver
     }
     protected override void OnDead()
     {
-        if (this.enemyCtrl.Spawner == null)
-        {
-            this.transform.parent.gameObject.SetActive(false);
-            
-        } else
+        this.OnDeadFX();
+        this.OnDeadDrop();
         this.enemyCtrl.Spawner.Despawn(this.transform.parent);
+    }
+
+    //can upgrade
+    protected virtual void OnDeadFX()
+    {
+        Vector3 vector = transform.position;    
+        Quaternion quaternion = Quaternion.identity;
+        Transform newFX =  FXSpawner.Instance.Spawn(FXSpawner.Instance.FirstPrefab(), vector, quaternion);
+        newFX.gameObject.SetActive(true);
+        newFX.GetComponentInChildren<FXDespawn>().ActiveDespawn();
+    }
+
+    protected virtual void OnDeadDrop()
+    {
+        Vector3 dropPos = transform.position;
+        Quaternion dropRot = transform.rotation;
+        //ItemDropSpawner.Instance.Drop(this.enemyCtrl.ShootableObject.dropList, dropPos, dropRot);
     }
 }

@@ -12,10 +12,4 @@ public class FXSpawner : Spawner
         if (FXSpawner._instance != null) Debug.LogError("Only 1 FXSpawner allow to exist");
         FXSpawner._instance = this;
     }
-
-    public override void Despawn(Transform obj)
-    {
-        
-    }
-
 }

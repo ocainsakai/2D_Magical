@@ -13,7 +13,7 @@ public class FXDespawn : DespawnByTime
         Debug.Log(transform.name + ": LoadComponents " , gameObject);
 
     }
-
+    
     protected virtual void LoadBulletCtrl()
     {
         if (this._FXCtrl != null) return;
@@ -22,12 +22,12 @@ public class FXDespawn : DespawnByTime
     }
     public override void ActiveDespawn()
     {
-        this.timeDestroy = _FXCtrl.ParticleSystem.main.duration + 0.2f;
+        this.timeDestroy = _FXCtrl.Particle.main.duration + 0.1f;
         base.ActiveDespawn();
     }
     protected override void OnDespawn()
     {
-        
+        FXSpawner.Instance.Despawn(this.transform.parent);
     }
     
 }
