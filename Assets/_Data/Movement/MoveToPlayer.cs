@@ -1,12 +1,13 @@
 using UnityEngine;
 
-public class MoveToPlayer : MoveToTarget<Transform>
+public class MoveToPlayer : MyMonoBehaviour
 {
-    
+    [SerializeField] protected Transform player;
+    [SerializeField] protected int speed = 1;
+
     protected virtual void Start()
     {
-        PlayerMovement playerMovement = target.GetComponent<PlayerMovement>();
-        playerMovement.OnMoving += OnPlayerMove;
+        
     }
     protected override void LoadComponent()
     {
@@ -17,13 +18,17 @@ public class MoveToPlayer : MoveToTarget<Transform>
 
     protected virtual void LoadTarget()
     {
-        Transform Target = GameObject.FindGameObjectWithTag("Player").transform;
-        SetTarget(Target);
+        this.player = GameObject.FindGameObjectWithTag("Player").transform;
         Debug.Log(transform.name + ": Load Target", gameObject);
     }
 
-    protected virtual void OnPlayerMove()
+    protected virtual void FixedUpdate()
     {
-        this.Move();
+        if (this.player != null)
+        {
+            Vector3 targetPosition = player.position;
+            targetPosition.z = this.transform.position.z;
+            this.transform.position = Vector3.MoveTowards(this.transform.position, targetPosition, Time.fixedDeltaTime * speed);
+        }
     }
 }
