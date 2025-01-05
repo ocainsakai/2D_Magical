@@ -1,17 +1,13 @@
 using UnityEngine;
 
-public class MoveToPlayer : MyMonoBehaviour
+public class MoveToPlayer : MonoBehaviour
 {
     [SerializeField] protected Transform player;
     [SerializeField] protected int speed = 1;
 
-    protected virtual void Start()
+    
+    protected virtual void Reset()
     {
-        
-    }
-    protected override void LoadComponent()
-    {
-        base.LoadComponent();
         this.LoadTarget();
 
     }

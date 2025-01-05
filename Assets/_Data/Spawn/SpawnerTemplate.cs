@@ -1,7 +1,44 @@
+using System.Collections.Generic;
 using UnityEngine;
 
-public class Spawner : SpawnerCtrl
+public class SpawnerTemplate: MonoBehaviour
 {
+    [SerializeField] protected List<Transform> prefabs;
+    [SerializeField] protected List<Transform> poolObjs;
+    [SerializeField] protected Transform holder;
+
+    protected virtual void Reset()
+    {
+        this.LoadPrefabs();
+        this.LoadHolder();
+    }
+    protected virtual void LoadPrefabs()
+    {
+        if (prefabs.Count > 0) return;
+        Transform prefabsTf = transform.Find("prefabs");
+        foreach (Transform t in prefabsTf)
+        {
+            prefabs.Add(t);
+            t.gameObject.SetActive(false);
+        }
+        Debug.Log(transform.name + ": Load prefabs ", gameObject);
+    }
+
+    protected virtual void LoadHolder()
+    {
+        if (holder != null) return;
+        holder = transform.Find("holder");
+       
+        Debug.Log(transform.name + ": Load holder ", gameObject);
+    }
+    protected virtual Transform GetPrefabAtFirst()
+    {
+        if (this.prefabs.Count > 0)
+        {
+            return this.prefabs[0];
+        }
+        return null;
+    }
     // control spawn amount
     [SerializeField] protected int spawnedCount = 0;
     protected Transform Spawn(Transform prefab, Vector3 position, Quaternion rotation)
@@ -51,6 +88,7 @@ public class Spawner : SpawnerCtrl
         // this spawner can't spawn
         return null;
     }
+
     public virtual void OnDespawn(Transform obj)
     {
         if (this.poolObjs.Contains(obj)) return;
@@ -59,4 +97,12 @@ public class Spawner : SpawnerCtrl
         obj.gameObject.SetActive(false);
         this.spawnedCount--;
     }
+    //protected virtual void ClearPool()
+    //{
+    //    foreach (Transform poolObj in this.poolObjs)
+    //    {
+    //        if (poolObj == null) continue;
+    //        this.poolObjs.Remove(poolObj);    
+    //    }
+    //}
 }

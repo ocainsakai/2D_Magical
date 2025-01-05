@@ -1,16 +1,15 @@
 using UnityEngine;
 
 [RequireComponent (typeof(Rigidbody2D))]
-public class PlayerMovement : MyMonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] protected Rigidbody2D Rigidbody2D;
     [SerializeField] protected float speed = 1f;
 
 
     public System.Action OnMoving;
-    protected override void LoadComponent()
+    protected virtual void Reset()
     {
-        base.LoadComponent();
         this.LoadRigibody();   
     }
 
