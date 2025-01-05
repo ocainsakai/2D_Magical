@@ -1,9 +1,12 @@
+using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 
 public class EnemySpawner : SpawnerTemplate
 {
     [SerializeField] protected Transform spawnPoint;
+    [SerializeField] protected int maxSpawnCount =9;
+    [SerializeField] protected float spawnDelay = 2f;
     protected override void Reset()
     {
         base.Reset();
@@ -12,9 +15,15 @@ public class EnemySpawner : SpawnerTemplate
 
     protected void Awake()
     {
-        InvokeRepeating(nameof(RandomSpawn), 1f, 1f);
+        TestSpawn();
     }
+    public void TestSpawn()
+    {
+        if (spawnCount >= maxSpawnCount) return;
 
+        RandomSpawn();
+        Invoke(nameof(TestSpawn), spawnDelay);
+    }
     protected virtual void RandomSpawn()
     {
         float x = Random.Range(-10f, 10f);

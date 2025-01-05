@@ -3,7 +3,7 @@ using UnityEngine;
 public class MoveToPlayer : MonoBehaviour
 {
     [SerializeField] protected Transform player;
-    [SerializeField] protected int speed = 1;
+    [SerializeField] protected float speed = 1;
 
     
     protected virtual void Reset()
@@ -24,7 +24,7 @@ public class MoveToPlayer : MonoBehaviour
         {
             Vector3 targetPosition = player.position;
             targetPosition.z = this.transform.position.z;
-            this.transform.position = Vector3.MoveTowards(this.transform.position, targetPosition, Time.fixedDeltaTime * speed);
+            this.transform.position = Vector3.Lerp(this.transform.position, targetPosition, Time.deltaTime * speed);
         }
     }
 }

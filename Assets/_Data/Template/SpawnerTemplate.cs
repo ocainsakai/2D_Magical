@@ -3,12 +3,14 @@ using UnityEngine;
 
 public class SpawnerTemplate: MonoBehaviour
 {
+    
     [SerializeField] protected List<Transform> prefabs;
 
     // can use queue
     [SerializeField] protected List<Transform> poolObjs;
     [SerializeField] protected Transform holder;
-
+    [SerializeField] protected int spawnCount;
+    public int SpawnCount => spawnCount;
     protected virtual void Reset()
     {
         this.LoadPrefabs();
@@ -21,8 +23,9 @@ public class SpawnerTemplate: MonoBehaviour
         foreach (Transform t in prefabsTf)
         {
             prefabs.Add(t);
-            t.gameObject.SetActive(false);
+            
         }
+        this.HidePrefabs();
         Debug.Log(transform.name + ": Load prefabs ", gameObject);
     }
 
@@ -42,14 +45,13 @@ public class SpawnerTemplate: MonoBehaviour
         return null;
     }
     // control spawn amount
-    [SerializeField] protected int spawnedCount = 0;
     protected Transform Spawn(Transform prefab, Vector3 position, Quaternion rotation)
     {
         Transform newPrefab = GetObjectFromPool(prefab);
         newPrefab.SetPositionAndRotation(position, rotation);
         newPrefab.SetParent(this.holder);
 
-        spawnedCount++;
+        spawnCount++;
         return newPrefab;
 
     }
@@ -101,7 +103,15 @@ public class SpawnerTemplate: MonoBehaviour
 
         this.poolObjs.Add(obj);
         obj.gameObject.SetActive(false);
-        this.spawnedCount--;
+        this.spawnCount--;
+    }
+
+    protected virtual void HidePrefabs()
+    {
+        foreach (Transform prefab in this.prefabs)
+        {
+            prefab.gameObject.SetActive(false);
+        }
     }
     //protected virtual void ClearPool()
     //{

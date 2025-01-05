@@ -4,7 +4,7 @@ public class InputManager : MonoBehaviour
 {
     [SerializeField] public static InputManager Instance { get; private set; }
     public static System.Action<Vector3> OnRightClick;
-    public static System.Action<Vector3> OnFire;
+    public static System.Action OnFire;
     public static System.Action<Vector2> OnMove;
 
     [SerializeField] public Vector3 MouseWorldPos => Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -22,8 +22,12 @@ public class InputManager : MonoBehaviour
         }
         if (Input.GetAxisRaw("Fire1") == 1)
         {
-            OnFire?.Invoke(MouseWorldPos);
+            //Debug.Log(transform.name + "Fire1", gameObject);
+
+            OnFire?.Invoke();
         }
+        //Debug.Log(transform.name + "GetMouseDown", gameObject);
+
     }
 
     protected virtual void GetMoving()
@@ -35,11 +39,11 @@ public class InputManager : MonoBehaviour
     }
     protected virtual void Update()
     {
-        this.GetMoving();
+        this.GetMouseDown();
+        
     }
     protected virtual void FixedUpdate()
     {
-        this.GetMouseDown();
-
+        this.GetMoving();
     }
 }
