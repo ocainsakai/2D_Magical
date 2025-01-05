@@ -4,6 +4,8 @@ using UnityEngine;
 public class SpawnerTemplate: MonoBehaviour
 {
     [SerializeField] protected List<Transform> prefabs;
+
+    // can use queue
     [SerializeField] protected List<Transform> poolObjs;
     [SerializeField] protected Transform holder;
 
@@ -50,6 +52,10 @@ public class SpawnerTemplate: MonoBehaviour
         spawnedCount++;
         return newPrefab;
 
+    }
+    protected Transform Spawn(Vector3 position, Quaternion rotation)
+    {
+        return this.Spawn( GetPrefabAtFirst(), position, rotation);
     }
 
     // get transform of prefabs

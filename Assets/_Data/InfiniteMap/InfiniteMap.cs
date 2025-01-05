@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 public class InfiniteMap : SpawnerTemplate
 {
-    [SerializeField] protected float chunkSize =200f * 0.15f;
+    [SerializeField] protected float chunkSize = 200f * 0.15f;
     [SerializeField] List<Transform> mapChunks;
-    protected override void Reset()
+    protected virtual void Awake()
     {
-        base.Reset();
+        
         this.GenerateMap();
     }
     protected virtual void GenerateMap()
