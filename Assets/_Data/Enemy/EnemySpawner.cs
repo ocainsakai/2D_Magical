@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class EnemySpawner : SpawnerTemplate
 {
+    [SerializeField] public static EnemySpawner Instancce {  get; private set; }
+
     [SerializeField] protected Transform spawnPoint;
     [SerializeField] protected int maxSpawnCount =9;
     [SerializeField] protected float spawnDelay = 2f;
@@ -15,6 +17,11 @@ public class EnemySpawner : SpawnerTemplate
 
     protected void Awake()
     {
+        if(EnemySpawner.Instancce != null)
+        {
+            Debug.Log(" Only have 1 Enemy spawner");
+        }
+        EnemySpawner.Instancce = this;
         TestSpawn();
     }
     public void TestSpawn()
@@ -29,8 +36,7 @@ public class EnemySpawner : SpawnerTemplate
         float x = Random.Range(-10f, 10f);
         float y = Random.Range(-10f, 10f);
         Vector3 randPoint = spawnPoint.position + new Vector3(x, y , 0);
-        Transform newEnemy = this.Spawn(randPoint, Quaternion.identity);
-        newEnemy.gameObject.SetActive(true);
+        this.Spawn(randPoint, Quaternion.identity);
     }
     protected virtual void LoadSpawnPoint()
     {

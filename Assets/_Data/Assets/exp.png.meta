@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 536c7bb89bcfd174f9b8502a35b008d5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6994144483505314999
+    second: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_0
+  - first:
+      213: -4332771230072101565
+    second: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_1
+  - first:
+      213: -4603832384560493376
+    second: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_2
+  - first:
+      213: -7500449757196280766
+    second: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_3
+  - first:
+      213: -4551510712586232656
+    second: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_4
+  - first:
+      213: -476204842925651555
+    second: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_5
+  - first:
+      213: 8968516269658536049
+    second: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_6
+  - first:
+      213: 4210733703982130138
+    second: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_7
+  - first:
+      213: -8442703649802703378
+    second: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_8
+  - first:
+      213: -4823586913966481677
+    second: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_9
+  - first:
+      213: -8469327976443238817
+    second: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_10
+  - first:
+      213: 4604556409137705638
+    second: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_11
+  - first:
+      213: -6397382234241170613
+    second: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_12
+  - first:
+      213: 5303282253436948412
+    second: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_13
+  - first:
+      213: 7026287538472253180
+    second: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_14
+  - first:
+      213: -815023873563504639
+    second: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_15
+  - first:
+      213: 5408638153396878618
+    second: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_16
+  - first:
+      213: 5918561688447669946
+    second: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_17
+  - first:
+      213: -3819182841406039127
+    second: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 168
+        width: 220
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94368e816aecfee90800000000000000
+      internalID: -6994144483505314999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 119
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3452582b587eed3c0800000000000000
+      internalID: -4332771230072101565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 111
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc05d0a6d6eb10c0800000000000000
+      internalID: -4603832384560493376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 103
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c96a65fac09e790800000000000000
+      internalID: -7500449757196280766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 103
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc99e03f19c5d0c0800000000000000
+      internalID: -4551510712586232656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 103
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d998819e73e2469f0800000000000000
+      internalID: -476204842925651555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 111
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 178fe4fa702967c70800000000000000
+      internalID: 8968516269658536049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 28
+        width: 14
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad3ae9d8ef78f6a30800000000000000
+      internalID: 4210733703982130138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 60
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eedad9903cd75da80800000000000000
+      internalID: -8442703649802703378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 60
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe1ec9124d2f0db0800000000000000
+      internalID: -4823586913966481677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 60
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f56a2dde317e67a80800000000000000
+      internalID: -8469327976443238817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 60
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a2b6ea78aba6ef30800000000000000
+      internalID: 4604556409137705638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 60
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4309a3b0cee737a0800000000000000
+      internalID: -6397382234241170613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 30
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf0ebb8c1b099940800000000000000
+      internalID: 5303282253436948412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 35
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf674641a43628160800000000000000
+      internalID: 7026287538472253180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 36
+        width: 56
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 100d8ccea1470b4f0800000000000000
+      internalID: -815023873563504639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 36
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d78db8eb75f0b40800000000000000
+      internalID: 5408638153396878618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 36
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab6d82d6f74f22250800000000000000
+      internalID: 5918561688447669946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 35
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9abd9bdc0798ffac0800000000000000
+      internalID: -3819182841406039127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_0: -6994144483505314999
+      DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_1: -4332771230072101565
+      DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_10: -8469327976443238817
+      DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_11: 4604556409137705638
+      DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_12: -6397382234241170613
+      DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_13: 5303282253436948412
+      DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_14: 7026287538472253180
+      DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_15: -815023873563504639
+      DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_16: 5408638153396878618
+      DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_17: 5918561688447669946
+      DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_18: -3819182841406039127
+      DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_2: -4603832384560493376
+      DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_3: -7500449757196280766
+      DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_4: -4551510712586232656
+      DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_5: -476204842925651555
+      DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_6: 8968516269658536049
+      DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_7: 4210733703982130138
+      DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_8: -8442703649802703378
+      DALL_E_2025-01-06_12.17.13_-_A_simple_2D_pixel-art_design_of_an_EXP_orb_for_a_top-down_classic_game__without_any_background_or_special_effects._The_orb_is_clean_and_minimalistic__-removebg-preview_9: -4823586913966481677
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

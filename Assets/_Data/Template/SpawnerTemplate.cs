@@ -19,7 +19,7 @@ public class SpawnerTemplate: MonoBehaviour
     protected virtual void LoadPrefabs()
     {
         if (prefabs.Count > 0) return;
-        Transform prefabsTf = transform.Find("prefabs");
+        Transform prefabsTf = transform.Find("prefabs"); 
         foreach (Transform t in prefabsTf)
         {
             prefabs.Add(t);
@@ -57,7 +57,9 @@ public class SpawnerTemplate: MonoBehaviour
     }
     protected Transform Spawn(Vector3 position, Quaternion rotation)
     {
-        return this.Spawn( GetPrefabAtFirst(), position, rotation);
+        Transform newPrefab = this.Spawn(GetPrefabAtFirst(), position, rotation);
+        newPrefab.gameObject.SetActive(true);   
+        return newPrefab;
     }
 
     // get transform of prefabs
