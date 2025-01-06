@@ -9,6 +9,6 @@ public class EnemyDamageReceiver : DamageReceiver
     }
     protected void OnDieDrop()
     {
-        ItemDropSpawner.Instancce.DropExp(this.transform.position);
+        ItemDropSpawner.Instance.DropExp(this.transform.position);
     }
 }

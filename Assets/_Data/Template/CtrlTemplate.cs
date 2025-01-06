@@ -30,7 +30,8 @@ public abstract class CtrlTemplate : MonoBehaviour
         {
             return;
         }
-        this.sphereCollider = GetComponent<Collider2D  >();
+        this.sphereCollider = GetComponent<Collider2D>();
+        this.sphereCollider.isTrigger = true;
 
     }
 }

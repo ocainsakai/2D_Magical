@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerMovement : PlayerAbstract
+public class PlayerMovement : LoadCtrl<PlayerCtrl>
 {
     
     [SerializeField] protected float speed = 1f;
