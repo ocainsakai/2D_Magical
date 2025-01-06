@@ -1,7 +1,7 @@
 using UnityEngine;
 [RequireComponent(typeof(CircleCollider2D))]
 
-public class ItemCtrl : CtrlTemplate
+public class ItemCtrl : CtrlBase
 {
     [SerializeField] protected ItemProfile itemProfile;
     public ItemProfile ItemProfile => itemProfile;

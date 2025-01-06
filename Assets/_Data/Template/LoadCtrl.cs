@@ -1,6 +1,6 @@
 using UnityEngine;
-
-public class LoadCtrl<T> : MonoBehaviour where T : CtrlTemplate
+[SerializeField]
+public class LoadCtrl<T> : MonoBehaviour where T : CtrlBase
 {
     [SerializeField] protected T ctrl;
     public T Ctrl => ctrl;

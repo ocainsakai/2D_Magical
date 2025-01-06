@@ -2,9 +2,8 @@ using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class EnemySpawner : SpawnerTemplate
+public class EnemySpawner : SpawnerBase
 {
-    [SerializeField] public static EnemySpawner Instancce {  get; private set; }
 
     [SerializeField] protected Transform spawnPoint;
     [SerializeField] protected int maxSpawnCount =9;
@@ -15,13 +14,8 @@ public class EnemySpawner : SpawnerTemplate
         this.LoadSpawnPoint();
     }
 
-    protected void Awake()
+    protected void Start()
     {
-        if(EnemySpawner.Instancce != null)
-        {
-            Debug.Log(" Only have 1 Enemy spawner");
-        }
-        EnemySpawner.Instancce = this;
         TestSpawn();
     }
     public void TestSpawn()

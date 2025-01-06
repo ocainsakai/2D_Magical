@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-public class InfiniteMap : SpawnerTemplate
+public class InfiniteMap : SpawnerBase
 {
     [SerializeField] protected float chunkSize = 200f * 0.15f;
     [SerializeField] List<Transform> mapChunks;

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public abstract class DamageReceiver : MonoBehaviour
+public abstract class DamageReceiver
 {
     public int maxHealth = 100; // Máu tối đa
     private int currentHealth;

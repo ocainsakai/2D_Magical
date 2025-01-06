@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnerTemplate: MonoBehaviour
+public abstract class SpawnerBase: MonoBehaviour
 {
-    
+  
     [SerializeField] protected List<Transform> prefabs;
 
     // can use queue
@@ -11,11 +11,14 @@ public class SpawnerTemplate: MonoBehaviour
     [SerializeField] protected Transform holder;
     [SerializeField] protected int spawnCount;
     public int SpawnCount => spawnCount;
+
     protected virtual void Reset()
     {
         this.LoadPrefabs();
         this.LoadHolder();
+        //SpawnerManager.Instance.RegisterSpawner(this);
     }
+    
     protected virtual void LoadPrefabs()
     {
         if (prefabs.Count > 0) return;
@@ -79,6 +82,7 @@ public class SpawnerTemplate: MonoBehaviour
         // if pool is null
         Transform newPrefab = Instantiate(prefab);
         newPrefab.name = prefab.name;
+        newPrefab.GetComponent<CtrlBase>()?.SetSpawner(this);
         return newPrefab;
     }
 

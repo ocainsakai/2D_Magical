@@ -2,8 +2,11 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Collider2D))]
 
-public abstract class CtrlTemplate : MonoBehaviour
+public abstract class CtrlBase : MonoBehaviour
 {
+    [SerializeField] protected SpawnerBase spawner;
+
+    public SpawnerBase Spawner => spawner;
     [SerializeField] protected Rigidbody2D rb;
     public Rigidbody2D Rigidbody => rb;
     [SerializeField] protected Collider2D sphereCollider;
@@ -14,7 +17,10 @@ public abstract class CtrlTemplate : MonoBehaviour
         this.LoadCollider();
         this.LoadRigibody();
     }
-
+    public void SetSpawner(SpawnerBase spawner)
+    {
+        this.spawner = spawner;
+    }
     protected virtual void LoadRigibody()
     {
         if (rb != null)

@@ -2,7 +2,7 @@ using UnityEngine;
 using static UnityEditor.Experimental.GraphView.GraphView;
 
 [RequireComponent (typeof(CircleCollider2D))]
-public class EnemyCtrl : CtrlTemplate
+public class EnemyCtrl : CtrlBase
 {
     protected override void Reset()
     {

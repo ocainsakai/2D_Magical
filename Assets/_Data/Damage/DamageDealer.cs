@@ -12,7 +12,7 @@ public class DamageDealer : MonoBehaviour
         if (receiver != null)
         {
             receiver.TakeDamage(damageAmount); // Gây sát thương
-            Destroy(gameObject); // Tùy chọn: Hủy đối tượng này (ví dụ: đạn biến mất sau khi va chạm)
+            //Destroy(gameObject); // Tùy chọn: Hủy đối tượng này (ví dụ: đạn biến mất sau khi va chạm)
         }
     }
 }

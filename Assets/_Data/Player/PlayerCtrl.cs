@@ -1,6 +1,6 @@
 using UnityEngine;
 [RequireComponent (typeof(CircleCollider2D))]
-public class PlayerCtrl : CtrlTemplate
+public class PlayerCtrl : CtrlBase
 {
     [SerializeField] protected Level level;
     public Level Level => level;
