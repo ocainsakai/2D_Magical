@@ -8,12 +8,22 @@ public class EnemySpawner : SpawnerBase
     [SerializeField] protected Transform spawnPoint;
     [SerializeField] protected int maxSpawnCount =9;
     [SerializeField] protected float spawnDelay = 2f;
+    [SerializeField] protected static EnemySpawner instance;
+    public static EnemySpawner Instance => instance;
+    protected void Awake()
+    {
+        if (instance != null)
+        {
+            Debug.Log("Only 1 ItemDropSpawner instance");
+        }
+        instance = this;
+    }
     protected override void Reset()
     {
         base.Reset();
         this.LoadSpawnPoint();
     }
-
+   
     protected void Start()
     {
         TestSpawn();

@@ -2,7 +2,7 @@ using UnityEngine;
 [RequireComponent (typeof(CircleCollider2D))]
 public class PlayerCtrl : CtrlBase
 {
-    [SerializeField] protected Level level;
+    [SerializeField] private Level level;
     public Level Level => level;
     protected override void Reset()
     {

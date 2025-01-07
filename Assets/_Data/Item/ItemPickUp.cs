@@ -16,11 +16,11 @@ public class ItemPickUp : LoadCtrl<PlayerCtrl>
     {
 
         // send item
-        if (item.ItemProfile.Type == ItemProfile.ItemType.Exp)
+        if (item.ItemProfile.Type == ItemType.Exp)
         {
             this.Ctrl.Level.AddXP(10);
         }
         // Xóa vật phẩm khỏi scene
-        //ItemDropSpawner.Instance.OnDespawn(item.transform);
+        item.Spawner.OnDespawn(item.transform);
     }
 }

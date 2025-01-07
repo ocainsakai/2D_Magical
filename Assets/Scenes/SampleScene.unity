@@ -163,7 +163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3ba4119e888f7b4bbace97da7ef76b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ctrl: {fileID: 0}
+  ctrl: {fileID: 2093531419}
   speed: 1
 --- !u!1 &102752801
 GameObject:
@@ -414,6 +414,7 @@ Transform:
   m_Children:
   - {fileID: 826891486}
   - {fileID: 2135831134}
+  - {fileID: 1418357203}
   m_Father: {fileID: 912056714}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &381442112
@@ -1121,7 +1122,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 757300749}
-  - {fileID: 1418357203}
   - {fileID: 369648090}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1137,7 +1137,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dbf875ea82efa04fa095009cf9883f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawners: []
 --- !u!1 &1026190557
 GameObject:
   m_ObjectHideFlags: 0
@@ -1320,7 +1319,7 @@ Transform:
   m_Children:
   - {fileID: 1026190558}
   - {fileID: 238572227}
-  m_Father: {fileID: 912056714}
+  m_Father: {fileID: 369648090}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1418357204
 MonoBehaviour:
@@ -1424,9 +1423,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff96a1c3bb822348bfbf65ecabb2021, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawner: {fileID: 0}
   rb: {fileID: 1442946652}
-  sphereCollider: {fileID: 1442946650}
+  _collider: {fileID: 1442946650}
+  spawner: {fileID: 0}
   itemProfile: {fileID: 385393043}
 --- !u!50 &1442946652
 Rigidbody2D:
@@ -1592,6 +1591,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1589670309
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1589670310}
+  m_Layer: 6
+  m_Name: enemyProfile
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1589670310
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589670309}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1780047304}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1598433950
 GameObject:
   m_ObjectHideFlags: 0
@@ -1672,6 +1702,7 @@ Transform:
   - {fileID: 1478430466}
   - {fileID: 2125196561}
   - {fileID: 102752802}
+  - {fileID: 1589670310}
   m_Father: {fileID: 1824230744}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1780047308
@@ -1700,9 +1731,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf703dd56f38dd642acb966e806609e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawner: {fileID: 0}
   rb: {fileID: 1780047310}
-  sphereCollider: {fileID: 1780047311}
+  _collider: {fileID: 1780047311}
+  spawner: {fileID: 0}
 --- !u!50 &1780047310
 Rigidbody2D:
   serializedVersion: 5
@@ -1855,9 +1886,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efc23670046abf6438f6dfd8b09c9472, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawner: {fileID: 0}
   rb: {fileID: 2093531420}
-  sphereCollider: {fileID: 2093531421}
+  _collider: {fileID: 0}
+  spawner: {fileID: 0}
   level: {fileID: 381442114}
 --- !u!50 &2093531420
 Rigidbody2D:
@@ -1966,7 +1997,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 287a1e375dcd41846bf299b84902fe28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ctrl: {fileID: 0}
+  ctrl: {fileID: 1780047309}
+  maxHealth: 100
 --- !u!1 &2135831133
 GameObject:
   m_ObjectHideFlags: 0
@@ -2008,7 +2040,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2458553953704273854, guid: ed786e6606e0df24798bfc724ca11b7f, type: 3}
       propertyPath: m_Name
-      value: Fireball
+      value: FireBall
       objectReference: {fileID: 0}
     - target: {fileID: 2458553953704273854, guid: ed786e6606e0df24798bfc724ca11b7f, type: 3}
       propertyPath: m_IsActive

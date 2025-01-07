@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class ItemCtrl : CtrlBase
 {
-    [SerializeField] protected ItemProfile itemProfile;
+    [SerializeField] private ItemProfile itemProfile;
     public ItemProfile ItemProfile => itemProfile;
     protected override void Reset()
     {

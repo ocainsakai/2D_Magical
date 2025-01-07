@@ -6,7 +6,6 @@ public class PlayerMovement : LoadCtrl<PlayerCtrl>
     [SerializeField] protected float speed = 1f;
 
 
-    public System.Action OnMoving;
   
     protected void Start()
     {
@@ -15,7 +14,6 @@ public class PlayerMovement : LoadCtrl<PlayerCtrl>
 
     protected virtual void Moving(Vector2 input)
     {
-        OnMoving?.Invoke();
-        this.ctrl.Rigidbody.linearVelocity = input * speed;
+        this.Ctrl.Rigidbody.linearVelocity = input * speed;
     }
 }

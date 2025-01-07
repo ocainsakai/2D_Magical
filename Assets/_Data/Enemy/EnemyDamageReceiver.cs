@@ -1,7 +1,14 @@
 using UnityEngine;
 
-public class EnemyDamageReceiver : LoadCtrl<EnemyCtrl>
+public class EnemyDamageReceiver : DamageReceiver
 {
-    public DamageReceiver damageReceiver;
-    
+    protected override void Die()
+    {
+        this.Ctrl.Spawner.OnDespawn(this.transform.parent);
+        this.OnDieDrop();
+    }
+    protected virtual void OnDieDrop()
+    {
+        ItemDropSpawner.Instance.DropExp(this.transform.position);
+    }
 }

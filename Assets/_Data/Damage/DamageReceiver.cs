@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public abstract class DamageReceiver
+public abstract class DamageReceiver : LoadCtrl<CtrlBase>
 {
     public int maxHealth = 100; // Máu tối đa
     private int currentHealth;
